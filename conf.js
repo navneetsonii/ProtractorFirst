@@ -44,10 +44,10 @@ exports.config = {
     jasmine.getEnv().addReporter(reporter);
     browser.manage().window().maximize();
     browser.manage().timeouts().implicitlyWait(10000);
-    // var AllureReporter = require('jasmine-allure-reporter');
-    // jasmine.getEnv().addReporter(new AllureReporter({
-    //   resultsDir: 'allure-results'
-    // }));
+    var AllureReporter = require('jasmine-allure-reporter');
+    jasmine.getEnv().addReporter(new AllureReporter({
+      resultsDir: 'allure-results'
+    }));
     jasmine.getEnv().afterEach(function(done){
       browser.takeScreenshot().then(function (png) {
         allure.createAttachment('Screenshot', function () {
