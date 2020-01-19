@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1579411215330' stop='1579411222976'>
+    <name>ActiTime</name>
+    <title>ActiTime</title>
+    <test-cases>
+        <test-case start='1579411215331' status='passed' stop='1579411220092'>
+            <name>Should error message come</name>
+            <title>Should error message come</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b8c50f51-ea69-4594-9c92-0a494ddc245e-attachment.png' type='image/png' size='26321'/>
+            </attachments>
+        </test-case>
+        <test-case start='1579411220093' status='passed' stop='1579411222974'>
+            <name>Should able to login with valid password</name>
+            <title>Should able to login with valid password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6a1057a6-b33c-411a-9f57-d9efb8dfa3f2-attachment.png' type='image/png' size='23106'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
