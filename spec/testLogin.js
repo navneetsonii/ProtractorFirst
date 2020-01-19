@@ -18,14 +18,8 @@ it('Should able to login with valid password',function() {
     login.sendKeysInElement(login.username,'admin');
     login.sendKeysInElement(login.password,'manager');
     login.clickElement(login.loginbutton);
-    
-})
-it('Should be fail',function() {
 
-    login.sendKeysInElement(login.username,'admina');
-    login.sendKeysInElement(login.password,'managera');
-    login.clickElement(login.loginbutton);
-    
 })
+
 });
     

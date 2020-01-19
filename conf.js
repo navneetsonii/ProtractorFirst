@@ -44,7 +44,7 @@ exports.config = {
     jasmine.getEnv().addReporter(reporter);
     browser.manage().window().maximize();
     browser.manage().timeouts().implicitlyWait(10000);
-    var AllureReporter = require('jasmine-allure-reporter');
+    // var AllureReporter = require('jasmine-allure-reporter');
     jasmine.getEnv().addReporter(new AllureReporter({
       resultsDir: 'allure-results'
     }));
